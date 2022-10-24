@@ -2,7 +2,7 @@
 import mongoose from 'mongoose'
 const carsSchema= new mongoose.Schema(
     {
-        carId:{
+        carID:{
             type:String,
             required:[true,"name must be provided please"],
             trim:true
@@ -20,7 +20,7 @@ const carsSchema= new mongoose.Schema(
             required:[true, "car type must be provided"]
         },
         
-        carImage:{
+        carImg:{
             type:String,
             required:[true, " a product must have an Image"]
         },
