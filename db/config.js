@@ -1,5 +1,5 @@
-const mongoose= require("mongoose")
 
+import mongoose from 'mongoose'
 
 const connect= (url)=>{
 
@@ -11,4 +11,4 @@ const connect= (url)=>{
     })
 }
 
-module.exports= connect
+export default connect

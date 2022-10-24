@@ -80,7 +80,7 @@ const carsSchema= new mongoose.Schema(
         },
         cubicCentimeters:{
             type: String,
-            required: true
+          
         },
         price:{
             type:Number,
